@@ -66,6 +66,8 @@ TASK(TaskMain)
 	Motor_init(&leftMotor, NXT_PORT_C);
 	Motor_init(&rightMotor, NXT_PORT_B);
 
+    // ikeda
+
 	// 4ms周期で、ライントレーサにトレース走行を依頼する
 	while(1)
 	{
